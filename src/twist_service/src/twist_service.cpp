@@ -37,10 +37,11 @@ bool call_ur_twist(twist_srv::call_twist::Request &req,
   ros::NodeHandle n;
 
   if (ser.available()==true) {
-
-
-
-
+string stringSend;
+char charSend[50];
+sprintf(charSend,"UTD%dUTD",(int)(req.angle*10));
+      stringSend=charSend;
+      ser.write(stringSend);
 
     ROS_INFO("Called bend twist %f", req.angle);
   } else {
