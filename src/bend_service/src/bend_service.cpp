@@ -1,18 +1,18 @@
 
-#include <ros/ros.h>
-#include <serial/serial.h>
-#include <std_msgs/Bool.h>
-#include <std_msgs/Empty.h>
-#include <std_msgs/String.h>
-#include <std_msgs/Float32.h>
-#include <string>
 #include "bend_srv/call_bend.h"
 #include "ur_msgs/IOStates.h"
 #include "ur_msgs/SetIO.h"
 #include "ur_msgs/SetIORequest.h"
 #include "ur_msgs/SetIOResponse.h"
-#include <iostream>
 #include <cstdio>
+#include <iostream>
+#include <ros/ros.h>
+#include <serial/serial.h>
+#include <std_msgs/Bool.h>
+#include <std_msgs/Empty.h>
+#include <std_msgs/Float32.h>
+#include <std_msgs/String.h>
+#include <string>
 
 #define USHORT unsigned short int
 #define BYTE unsigned char
@@ -75,18 +75,17 @@ int main(int argc, char **argv) {
   ros::Publisher bend_angle_pub =
       n.advertise<std_msgs::Float32>("/bend_angle", 1000);
   std_msgs::Float32 bend_angle_msg;
-std::string inString = "";
-float ee_angle=0;
+  std::string inString = "";
+  float ee_angle = 0;
 
-int  ee_angle_int=0;
+  int ee_angle_int = 0;
   while (ros::ok()) {
-std::string datastr = ser.read(ser.available());
- sscanf(datastr.data(), "DTU%dDTU", &ee_angle_int);
-            ee_angle = ee_angle_int / 10;
+    std::string datastr = ser.read(ser.available());
+    sscanf(datastr.data(), "DTU%dDTU", &ee_angle_int);
+    ee_angle = ee_angle_int / 10;
 
-
-          bend_angle_msg.data=ee_angle;
-          bend_angle_pub.publish(bend_angle_msg);
+    bend_angle_msg.data = ee_angle;
+    bend_angle_pub.publish(bend_angle_msg);
     ros::spinOnce();
 
     loop_rate.sleep();
