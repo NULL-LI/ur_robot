@@ -7,7 +7,6 @@ find_package(catkin REQUIRED COMPONENTS
 std_srvs
 message_generation
 )
-
 #add_message_files(
 #    DIRECTORY
 #    msg
