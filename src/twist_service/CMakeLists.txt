@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(bend_service)
+project(twist_service)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -38,9 +38,9 @@ include_directories(
 ${PROJECT_SOURCE_DIR}/../../devel/include/
 )
 
-add_executable(bend_service_node src/bend_service.cpp)
+add_executable(twist_service_node src/twist_service.cpp)
 
-target_link_libraries(bend_service_node
+target_link_libraries(twist_service_node
   ${catkin_LIBRARIES}
 )
 

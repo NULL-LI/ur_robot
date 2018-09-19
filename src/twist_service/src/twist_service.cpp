@@ -1,5 +1,5 @@
 
-#include "bend_srv/call_bend.h"
+#include "twist_srv/call_twist.h"
 #include "ur_msgs/IOStates.h"
 #include "ur_msgs/SetIO.h"
 #include "ur_msgs/SetIORequest.h"
@@ -32,20 +32,25 @@
 serial::Serial ser;
 using namespace std;
 
-bool call_ur_bend(bend_srv::call_bend::Request &req,
-                  bend_srv::call_bend::Response &res) {
+bool call_ur_twist(twist_srv::call_twist::Request &req,
+                  twist_srv::call_twist::Response &res) {
   ros::NodeHandle n;
 
-  if (1) {
-    ROS_INFO("Called bend angle %f", req.angle);
+  if (ser.available()==true) {
 
+
+
+
+
+    ROS_INFO("Called bend twist %f", req.angle);
   } else {
-    ROS_ERROR("Failed to call ur io");
+    ROS_ERROR("Serial unavailable!");
     return 1;
   }
-
   return true;
 }
+
+
 
 int main(int argc, char **argv) {
   try {
@@ -67,7 +72,7 @@ int main(int argc, char **argv) {
   ros::init(argc, argv, "ur_bend_server");
   ros::NodeHandle nh;
 
-  ros::ServiceServer service = nh.advertiseService("call_bend", call_ur_bend);
+  ros::ServiceServer service = nh.advertiseService("call_twist", call_ur_twist);
 
   ROS_INFO("Ready to bend.");
   ros::Rate loop_rate(10);

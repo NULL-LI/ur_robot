@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(bend_srv)
+project(twist_srv)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -19,7 +19,7 @@ add_service_files(
     DIRECTORY
     srv
   FILES
-  call_bend.srv
+  call_twist.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs std_srvs)
