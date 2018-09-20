@@ -43,26 +43,26 @@ void loop()
     digitalWrite(outPin, LOW);
     //    Serial.print("没有吸上\n");
   }
+  char inChar='\n';
   while (Serial.available() > 0) {
-    int inChar = Serial.read();
-    if (isDigit(inChar)) {
+    inChar = Serial.read();
+
       // convert the incoming byte to a char
       // and add it to the string:
       inString += (char)inChar;
-    } else {
-      inString = "";
-    }     
-    if (inChar == '\n') { 
+  }
+    
       sscanf(inString.c_str(), "UTD%dUTD", &ee_angle_int);           
       ee_angle = ee_angle_int/ 10;
+      myservo.write(ee_angle/1.5);
       outString="";
       outString+=stringDwonToUp;
       char temp_str[20];
-      outString+=itoa(ee_angle_int,temp_str,10);
+      outString+=itoa((int)myservo.read()*10*1.5,temp_str,10);
       outString+=stringDwonToUp;
       inString = "";
-    }
-  }
+    
+  
       Serial.println(outString);
   delay(100);
 }

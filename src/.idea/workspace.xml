@@ -47,8 +47,8 @@
       <config projectName="Project" targetName="ur_driver_gencfg" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="Project" targetName="twist_srv_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur_msgs_generate_messages" />
@@ -160,6 +160,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c19b30-aaec-45a3-9c4a-24b91ec9c6e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twist_service/src/twist_service.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/twist_service/src/twist_service.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -176,66 +177,54 @@
     <session id="-1630408092">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="6" />
+          <entry key="cpp" value="7" />
           <entry key="h" value="1" />
           <entry key="md" value="1" />
           <entry key="srv" value="1" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="8" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="8" />
+          <entry key="CMakeLists.txt" value="9" />
           <entry key="Markdown" value="1" />
-          <entry key="ObjectiveC" value="7" />
+          <entry key="ObjectiveC" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="152" />
+          <entry key="cpp" value="234" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="152" />
+          <entry key="ObjectiveC" value="234" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grasp_service/src/grasp_service.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twist_service/src/twist_service.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-              <folding>
-                <element signature="e#1#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="309">
+              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -263,7 +252,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
+    <option name="x" value="-1863" />
     <option name="y" value="-6" />
     <option name="width" value="1863" />
     <option name="height" value="1086" />
@@ -291,20 +280,14 @@
               <item name="twist_srv" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="grasp_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twist_srv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="grasp_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="twist_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twist_srv" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="twist_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,6 +297,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
@@ -1088,7 +1072,6 @@
       <item itemvalue="Application.doxygen" />
       <item itemvalue="Application.run_tests" />
       <item itemvalue="Application.tests" />
-      <item itemvalue="Application.grasp_service_node" />
       <item itemvalue="Application.roscpp_generate_messages_cpp" />
       <item itemvalue="Application.roscpp_generate_messages_eus" />
       <item itemvalue="Application.roscpp_generate_messages_lisp" />
@@ -1109,6 +1092,23 @@
       <item itemvalue="Application.std_srvs_generate_messages_lisp" />
       <item itemvalue="Application.std_srvs_generate_messages_nodejs" />
       <item itemvalue="Application.std_srvs_generate_messages_py" />
+      <item itemvalue="Application._twist_srv_generate_messages_check_deps_call_twist" />
+      <item itemvalue="Application.twist_srv_gencpp" />
+      <item itemvalue="Application.twist_srv_generate_messages" />
+      <item itemvalue="Application.twist_srv_generate_messages_cpp" />
+      <item itemvalue="Application.twist_srv_generate_messages_eus" />
+      <item itemvalue="Application.twist_srv_generate_messages_lisp" />
+      <item itemvalue="Application.twist_srv_generate_messages_nodejs" />
+      <item itemvalue="Application.twist_srv_generate_messages_py" />
+      <item itemvalue="Application.twist_srv_geneus" />
+      <item itemvalue="Application.twist_srv_genlisp" />
+      <item itemvalue="Application.twist_srv_gennodejs" />
+      <item itemvalue="Application.twist_srv_genpy" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Application.grasp_service_node" />
       <item itemvalue="Application._grasp_srv_generate_messages_check_deps_call_grasp" />
       <item itemvalue="Application.grasp_srv_gencpp" />
       <item itemvalue="Application.grasp_srv_generate_messages" />
@@ -1122,18 +1122,6 @@
       <item itemvalue="Application.grasp_srv_gennodejs" />
       <item itemvalue="Application.grasp_srv_genpy" />
       <item itemvalue="Application.twist_service_node" />
-      <item itemvalue="Application._twist_srv_generate_messages_check_deps_call_twist" />
-      <item itemvalue="Application.twist_srv_gencpp" />
-      <item itemvalue="Application.twist_srv_generate_messages" />
-      <item itemvalue="Application.twist_srv_generate_messages_cpp" />
-      <item itemvalue="Application.twist_srv_generate_messages_eus" />
-      <item itemvalue="Application.twist_srv_generate_messages_lisp" />
-      <item itemvalue="Application.twist_srv_generate_messages_nodejs" />
-      <item itemvalue="Application.twist_srv_generate_messages_py" />
-      <item itemvalue="Application.twist_srv_geneus" />
-      <item itemvalue="Application.twist_srv_genlisp" />
-      <item itemvalue="Application.twist_srv_gennodejs" />
-      <item itemvalue="Application.twist_srv_genpy" />
       <item itemvalue="Application._catkin_empty_exported_target" />
       <item itemvalue="Application.dynamic_reconfigure_gencfg" />
       <item itemvalue="Application.dynamic_reconfigure_generate_messages_cpp" />
@@ -1228,10 +1216,6 @@
       <item itemvalue="Application.ur_msgs_genlisp" />
       <item itemvalue="Application.ur_msgs_gennodejs" />
       <item itemvalue="Application.ur_msgs_genpy" />
-      <item itemvalue="Application.gmock" />
-      <item itemvalue="Application.gmock_main" />
-      <item itemvalue="Application.gtest" />
-      <item itemvalue="Application.gtest_main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1248,17 +1232,20 @@
       <workItem from="1537366594020" duration="133000" />
       <workItem from="1537366762689" duration="1091000" />
       <workItem from="1537367900728" duration="1813000" />
+      <workItem from="1537408350330" duration="750000" />
+      <workItem from="1537409117204" duration="86000" />
+      <workItem from="1537409204245" duration="863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4710000" />
+    <option name="totallyTimeSpent" value="6419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-6" width="1863" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19372593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20198129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1269,7 +1256,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.23640168" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.2615063" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -1338,20 +1325,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../ssd_kinect/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file:///opt/ros/kinetic/include/serial/serial.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="305" column="2" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
+        <state relative-caret-position="862">
+          <caret line="401" column="2" selection-start-line="401" selection-start-column="2" selection-end-line="401" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twist_service/src/twist_service.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#1#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="309">
+          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
         </state>
       </provider>
     </entry>

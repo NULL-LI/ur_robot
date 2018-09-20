@@ -32,18 +32,17 @@
 serial::Serial ser;
 using namespace std;
 
+double ee_angle_send=0;
+
 bool call_ur_twist(twist_srv::call_twist::Request &req,
-                  twist_srv::call_twist::Response &res) {
-  ros::NodeHandle n;
+                   twist_srv::call_twist::Response &res) {
+//  ros::NodeHandle n;
 
-  if (ser.available()==true) {
-string stringSend;
-char charSend[50];
-sprintf(charSend,"UTD%dUTD",(int)(req.angle*10));
-      stringSend=charSend;
-      ser.write(stringSend);
+//  ROS_INFO("%s",ser.available()?"available":"not available");
+  if (1) {
+    ee_angle_send=req.angle;
 
-    ROS_INFO("Called bend twist %f", req.angle);
+    ROS_INFO("Called twist %f", req.angle);
   } else {
     ROS_ERROR("Serial unavailable!");
     return 1;
@@ -51,11 +50,9 @@ sprintf(charSend,"UTD%dUTD",(int)(req.angle*10));
   return true;
 }
 
-
-
 int main(int argc, char **argv) {
   try {
-    ser.setPort("/dev/ttyUSB0");
+    ser.setPort("/dev/ttyACM0");
     ser.setBaudrate(9600);
     serial::Timeout to = serial::Timeout::simpleTimeout(1000);
     ser.setTimeout(to);
@@ -75,7 +72,7 @@ int main(int argc, char **argv) {
 
   ros::ServiceServer service = nh.advertiseService("call_twist", call_ur_twist);
 
-  ROS_INFO("Ready to bend.");
+  ROS_INFO("Ready to twist.");
   ros::Rate loop_rate(10);
   ros::NodeHandle n;
   ros::Publisher bend_angle_pub =
@@ -86,12 +83,21 @@ int main(int argc, char **argv) {
 
   int ee_angle_int = 0;
   while (ros::ok()) {
+      ROS_INFO("%s",ser.available()?"available":"not available");
     std::string datastr = ser.read(ser.available());
     sscanf(datastr.data(), "DTU%dDTU", &ee_angle_int);
     ee_angle = ee_angle_int / 10;
 
     bend_angle_msg.data = ee_angle;
     bend_angle_pub.publish(bend_angle_msg);
+
+    string stringSend;
+    char charSend[50];
+    sprintf(charSend, "UTD%dUTD\n\r", (int)(ee_angle_send * 10));
+    ROS_INFO("%s",charSend);
+    stringSend = charSend;
+    ser.write(stringSend);
+
     ros::spinOnce();
 
     loop_rate.sleep();
