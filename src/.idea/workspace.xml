@@ -2,155 +2,47 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project" targetName="ur3_moveit_plugin" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_py" />
-      <config projectName="Project" targetName="twist_srv_gencpp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="clean_test_results" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages_cpp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="twist_srv_geneus" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_py" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="Project" targetName="ur_msgs_genlisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_catkin_empty_exported_target" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="actionlib_generate_messages_py" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages_eus" />
-      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="ur_msgs_geneus" />
-      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_driver_gencfg" />
-      <config projectName="Project" targetName="download_extra_data" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_nodejs" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages" />
-      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="grasp_srv_genlisp" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="ur_msgs_gennodejs" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="Project" targetName="_twist_srv_generate_messages_check_deps_call_twist" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages_nodejs" />
-      <config projectName="Project" targetName="gmock_main" />
-      <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="ur5_kin" />
-      <config projectName="Project" targetName="ur_msgs_gencpp" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="gtest_main" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="twist_srv_generate_messages" />
-      <config projectName="Project" targetName="_grasp_srv_generate_messages_check_deps_call_grasp" />
-      <config projectName="Project" targetName="twist_srv_genlisp" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
-      <config projectName="Project" targetName="ur3_kin" />
-      <config projectName="Project" targetName="twist_srv_genpy" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="Project" targetName="grasp_srv_geneus" />
-      <config projectName="Project" targetName="tf_generate_messages_eus" />
-      <config projectName="Project" targetName="ur10_kin" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_cpp" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages_lisp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="gtest" />
-      <config projectName="Project" targetName="grasp_srv_genpy" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="grasp_srv_gennodejs" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="grasp_srv_gencpp" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_generate_messages_cpp" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_eus" />
-      <config projectName="Project" targetName="gmock" />
-      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
-      <config projectName="Project" targetName="doxygen" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
-      <config projectName="Project" targetName="tests" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur10_moveit_plugin" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="twist_service_node" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="twist_srv_gennodejs" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="ur_msgs_genpy" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur5_moveit_plugin" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="grasp_service_node" />
-      <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
-      <config projectName="Project" targetName="twist_srv_generate_messages_lisp" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
-      <config projectName="Project" targetName="grasp_srv_generate_messages_py" />
+      <config projectName="twist_srv" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="twist_srv" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="twist_srv" targetName="twist_srv_geneus" />
+      <config projectName="twist_srv" targetName="roscpp_generate_messages_py" />
+      <config projectName="twist_srv" targetName="_twist_srv_generate_messages_check_deps_call_twist" />
+      <config projectName="twist_srv" targetName="clean_test_results" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages_lisp" />
+      <config projectName="twist_srv" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="twist_srv" targetName="run_tests" />
+      <config projectName="twist_srv" targetName="twist_srv_genlisp" />
+      <config projectName="twist_srv" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages_nodejs" />
+      <config projectName="twist_srv" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="twist_srv" targetName="gmock" />
+      <config projectName="twist_srv" targetName="gtest" />
+      <config projectName="twist_srv" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="twist_srv" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="twist_srv" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="twist_srv" targetName="gmock_main" />
+      <config projectName="twist_srv" targetName="doxygen" />
+      <config projectName="twist_srv" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="twist_srv" targetName="twist_srv_gencpp" />
+      <config projectName="twist_srv" targetName="download_extra_data" />
+      <config projectName="twist_srv" targetName="std_msgs_generate_messages_py" />
+      <config projectName="twist_srv" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="twist_srv" targetName="std_srvs_generate_messages_py" />
+      <config projectName="twist_srv" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="twist_srv" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages_eus" />
+      <config projectName="twist_srv" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="twist_srv" targetName="twist_srv_gennodejs" />
+      <config projectName="twist_srv" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages_cpp" />
+      <config projectName="twist_srv" targetName="gtest_main" />
+      <config projectName="twist_srv" targetName="twist_srv_genpy" />
+      <config projectName="twist_srv" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="twist_srv" targetName="twist_srv_generate_messages_py" />
+      <config projectName="twist_srv" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="twist_srv" targetName="tests" />
+      <config projectName="twist_srv" targetName="roscpp_generate_messages_eus" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -161,7 +53,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c19b30-aaec-45a3-9c4a-24b91ec9c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twist_service/src/twist_service.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/twist_service/src/twist_service.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/clion/" />
@@ -177,11 +68,12 @@
     <session id="-1630408092">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -206,25 +98,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="234" />
+          <entry key="cpp" value="246" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="234" />
+          <entry key="ObjectiveC" value="246" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twist_service/src/twist_service.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="589">
+              <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -252,10 +144,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1863" />
-    <option name="y" value="-6" />
-    <option name="width" value="1863" />
-    <option name="height" value="1086" />
+    <option name="x" value="317" />
+    <option name="y" value="56" />
+    <option name="width" value="1398" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1234,18 +1126,18 @@
       <workItem from="1537367900728" duration="1813000" />
       <workItem from="1537408350330" duration="750000" />
       <workItem from="1537409117204" duration="86000" />
-      <workItem from="1537409204245" duration="863000" />
+      <workItem from="1537409204245" duration="1507000" />
+      <workItem from="1537593229092" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6419000" />
+    <option name="totallyTimeSpent" value="7181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-6" width="1863" height="1086" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20198129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20528343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1256,7 +1148,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.2615063" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.28935185" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -1337,8 +1229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twist_service/src/twist_service.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+        <state relative-caret-position="589">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -67,7 +67,7 @@ int main(int argc, char **argv) {
     return -1;
   }
 
-  ros::init(argc, argv, "ur_bend_server");
+  ros::init(argc, argv, "ur_twist_server");
   ros::NodeHandle nh;
 
   ros::ServiceServer service = nh.advertiseService("call_twist", call_ur_twist);
@@ -75,9 +75,9 @@ int main(int argc, char **argv) {
   ROS_INFO("Ready to twist.");
   ros::Rate loop_rate(10);
   ros::NodeHandle n;
-  ros::Publisher bend_angle_pub =
-      n.advertise<std_msgs::Float32>("/bend_angle", 1000);
-  std_msgs::Float32 bend_angle_msg;
+  ros::Publisher twist_angle_pub =
+      n.advertise<std_msgs::Float32>("/twist_angle", 1000);
+  std_msgs::Float32 twist_angle_msg;
   std::string inString = "";
   float ee_angle = 0;
 
@@ -88,8 +88,8 @@ int main(int argc, char **argv) {
     sscanf(datastr.data(), "DTU%dDTU", &ee_angle_int);
     ee_angle = ee_angle_int / 10;
 
-    bend_angle_msg.data = ee_angle;
-    bend_angle_pub.publish(bend_angle_msg);
+    twist_angle_msg.data = ee_angle;
+    twist_angle_pub.publish(twist_angle_msg);
 
     string stringSend;
     char charSend[50];
