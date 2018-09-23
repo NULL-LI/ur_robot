@@ -24,7 +24,7 @@ void setup()
 {
   pinMode(outPin, OUTPUT);
   analogReference(INTERNAL); //调用板载1.1V基准源
-  myservo.attach(2);
+  myservo.attach(4);
   Serial.begin(9600);
 }
 
@@ -54,11 +54,11 @@ void loop()
     
       sscanf(inString.c_str(), "UTD%dUTD", &ee_angle_int);           
       ee_angle = ee_angle_int/ 10;
-      myservo.write(ee_angle/1.5);
+      myservo.write(ee_angle/1.0);
       outString="";
       outString+=stringDwonToUp;
       char temp_str[20];
-      outString+=itoa((int)myservo.read()*10*1.5,temp_str,10);
+      outString+=itoa((int)myservo.read()*10*1.0,temp_str,10);
       outString+=stringDwonToUp;
       inString = "";
     
