@@ -35,12 +35,12 @@ void loop()
   if (voltageValue > thresholdVoltageValue)
   {
     //吸上了
-    digitalWrite(outPin, HIGH);
+    //digitalWrite(outPin, HIGH);
     //    Serial.print("吸上了\n");
   } else
   {
     //没有吸上
-    digitalWrite(outPin, LOW);
+    //digitalWrite(outPin, LOW);
     //    Serial.print("没有吸上\n");
   }
   char inChar='\n';
