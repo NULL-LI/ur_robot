@@ -1,0 +1,4 @@
+Symlinking /home/null/ros_ws/ur_robot/devel/lib/pkgconfig/grasp_service.pc
+Symlinking /home/null/ros_ws/ur_robot/devel/lib/grasp_service/grasp_service_node
+Symlinking /home/null/ros_ws/ur_robot/devel/share/grasp_service/cmake/grasp_serviceConfig.cmake
+Symlinking /home/null/ros_ws/ur_robot/devel/share/grasp_service/cmake/grasp_serviceConfig-version.cmake

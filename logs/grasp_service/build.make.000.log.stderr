@@ -1,0 +1,5 @@
+[01m[K/home/null/ros_ws/ur_robot/src/grasp_service/src/grasp_service.cpp:7:34:[m[K [01;31m[Kfatal error: [m[Kgrasp_srv/call_grasp.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/grasp_service_node.dir/src/grasp_service.cpp.o] Error 1
+make[1]: *** [CMakeFiles/grasp_service_node.dir/all] Error 2
+make: *** [all] Error 2

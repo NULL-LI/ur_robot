@@ -1,0 +1,8 @@
+Symlinking /home/null/ros_ws/ur_robot/devel/./env.sh
+Symlinking /home/null/ros_ws/ur_robot/devel/./setup.zsh
+Symlinking /home/null/ros_ws/ur_robot/devel/./setup.bash
+Symlinking /home/null/ros_ws/ur_robot/devel/./setup.sh
+Symlinking /home/null/ros_ws/ur_robot/devel/./_setup_util.py
+Symlinking /home/null/ros_ws/ur_robot/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/null/ros_ws/ur_robot/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/null/ros_ws/ur_robot/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_service_node.dir/src/twist_service.cpp.o[0m
+[01m[K/home/null/ros_ws/ur_robot/src/twist_service/src/twist_service.cpp:3:30:[m[K [01;31m[Kfatal error: [m[Kur_msgs/IOStates.h: 没有那个文件或目录
+compilation terminated.
+CMakeFiles/twist_service_node.dir/build.make:62: recipe for target 'CMakeFiles/twist_service_node.dir/src/twist_service.cpp.o' failed
+make[2]: *** [CMakeFiles/twist_service_node.dir/src/twist_service.cpp.o] Error 1
+make[1]: *** [CMakeFiles/twist_service_node.dir/all] Error 2
+CMakeFiles/Makefile2:675: recipe for target 'CMakeFiles/twist_service_node.dir/all' failed
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

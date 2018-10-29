@@ -1,0 +1,4 @@
+Linked: (/home/null/ros_ws/ur_robot/devel/.private/twist_service/lib/pkgconfig/twist_service.pc, /home/null/ros_ws/ur_robot/devel/lib/pkgconfig/twist_service.pc)
+Linked: (/home/null/ros_ws/ur_robot/devel/.private/twist_service/lib/twist_service/twist_service_node, /home/null/ros_ws/ur_robot/devel/lib/twist_service/twist_service_node)
+Linked: (/home/null/ros_ws/ur_robot/devel/.private/twist_service/share/twist_service/cmake/twist_serviceConfig-version.cmake, /home/null/ros_ws/ur_robot/devel/share/twist_service/cmake/twist_serviceConfig-version.cmake)
+Linked: (/home/null/ros_ws/ur_robot/devel/.private/twist_service/share/twist_service/cmake/twist_serviceConfig.cmake, /home/null/ros_ws/ur_robot/devel/share/twist_service/cmake/twist_serviceConfig.cmake)

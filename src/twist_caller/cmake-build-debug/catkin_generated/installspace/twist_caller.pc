@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: twist_caller
+Description: Description of twist_caller
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: std_msgs message_runtime serial
