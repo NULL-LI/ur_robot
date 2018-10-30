@@ -24,7 +24,7 @@ void setup()
 {
   pinMode(outPin, OUTPUT);
   analogReference(INTERNAL); //调用板载1.1V基准源
-  myservo.attach(4);
+  myservo.attach(5);
   Serial.begin(9600);
 }
 
