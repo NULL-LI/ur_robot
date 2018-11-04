@@ -1,9 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/grasp_service_node.dir/src/grasp_service.cpp.o[0m
-[01m[K/home/null/ros_ws/ur_robot/src/grasp_service/src/grasp_service.cpp:8:30:[m[K [01;31m[Kfatal error: [m[Kur_msgs/IOStates.h: 没有那个文件或目录
-compilation terminated.
-CMakeFiles/grasp_service_node.dir/build.make:62: recipe for target 'CMakeFiles/grasp_service_node.dir/src/grasp_service.cpp.o' failed
-make[2]: *** [CMakeFiles/grasp_service_node.dir/src/grasp_service.cpp.o] Error 1
-make[1]: *** [CMakeFiles/grasp_service_node.dir/all] Error 2
-CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/grasp_service_node.dir/all' failed
-Makefile:138: recipe for target 'all' failed
-make: *** [all] Error 2

@@ -45,7 +45,7 @@ bool call_ur_twist(twist_srv::call_twist::Request &req,
     ROS_INFO("Called twist %f", req.angle);
   } else {
     ROS_ERROR("Serial unavailable!");
-    return 1;
+    return -1;
   }
   return true;
 }
@@ -81,11 +81,13 @@ int main(int argc, char **argv) {
   std::string inString = "";
   float ee_angle = 0;
 
+  int sucked = 0;
+
   int ee_angle_int = 0;
   while (ros::ok()) {
       ROS_INFO("%s",ser.available()?"available":"not available");
     std::string datastr = ser.read(ser.available());
-    sscanf(datastr.data(), "DTU%dDTU", &ee_angle_int);
+    sscanf(datastr.data(), "ANGLEDTU%dANGLEDTUSUCKED%dSUCKED", &ee_angle_int,&sucked);
     ee_angle = ee_angle_int / 10;
 
     twist_angle_msg.data = ee_angle;
@@ -93,7 +95,7 @@ int main(int argc, char **argv) {
 
     string stringSend;
     char charSend[50];
-    sprintf(charSend, "UTD%dUTD\n\r", (int)(ee_angle_send * 10));
+    sprintf(charSend, "ANGLEUTD%dANGLEUTD\n\r", (int)(ee_angle_send * 10));
     ROS_INFO("%s",charSend);
     stringSend = charSend;
     ser.write(stringSend);

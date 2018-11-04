@@ -1,5 +1,6 @@
 build/
 devel/
+logs/
 bin/
 lib/
 msg_gen/

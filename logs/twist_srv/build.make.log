@@ -8,8 +8,8 @@
 [  0%] Built target std_srvs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
 [ 14%] Built target twist_srv_generate_messages_nodejs
-[ 14%] Built target std_msgs_generate_messages_lisp
 [ 42%] Built target twist_srv_generate_messages_eus
 [ 71%] Built target twist_srv_generate_messages_py
 [ 85%] Built target twist_srv_generate_messages_cpp

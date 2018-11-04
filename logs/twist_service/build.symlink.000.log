@@ -1,4 +1,0 @@
-Symlinking /home/null/ros_ws/ur_robot/devel/lib/pkgconfig/twist_service.pc
-Symlinking /home/null/ros_ws/ur_robot/devel/lib/twist_service/twist_service_node
-Symlinking /home/null/ros_ws/ur_robot/devel/share/twist_service/cmake/twist_serviceConfig-version.cmake
-Symlinking /home/null/ros_ws/ur_robot/devel/share/twist_service/cmake/twist_serviceConfig.cmake

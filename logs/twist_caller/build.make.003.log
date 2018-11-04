@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target twist_service_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/twist_service_node.dir/src/twist_service.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/null/ros_ws/ur_robot/devel/.private/twist_caller/lib/twist_caller/twist_service_node[0m
-[100%] Built target twist_service_node
